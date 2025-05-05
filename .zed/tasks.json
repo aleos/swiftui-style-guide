@@ -1,0 +1,19 @@
+[
+  {
+    "label": "build",
+    "command": "cd SwiftUIStyleExamples && swift build",
+    "hide": "on_success",
+    "tags": ["swift", "build"]
+  },
+  {
+    "label": "test",
+    "command": "cd SwiftUIStyleExamples && swift test",
+    "hide": "on_success",
+    "tags": ["swift", "test"]
+  },
+  {
+    "label": "generate-docs",
+    "command": "cd SwiftUIStyleExamples && swift package generate-documentation",
+    "tags": ["swift", "docs"]
+  }
+]
