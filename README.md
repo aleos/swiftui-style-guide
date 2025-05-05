@@ -6,6 +6,24 @@ A comprehensive personal reference for SwiftUI coding standards and best practic
 
 This style guide documents my personal coding conventions for SwiftUI development, provides practical examples of implementation, and serves as a reference to challenge myself with best practices. It follows Apple's recommendations while making deliberate choices where Apple's guidance is inconsistent.
 
+## 📦 SwiftUIStyleExamples Package
+
+The Swift package included in this repository serves several important purposes:
+
+- **Living Code Reference**: Provides compilable, working examples of all style guide principles in practice
+- **Pattern Demonstration**: Shows how to implement MVVM architecture, view composition, and other design patterns correctly
+- **Best Practices Showcase**: Illustrates proper naming conventions, file organization, and code structure
+- **Documentation Source**: Serves as the basis for DocC-generated documentation with annotations
+- **Self-Testing**: Includes tests to validate that examples work as expected
+- **Project Template**: Can be used as a reference when starting new projects to ensure consistency
+
+The package demonstrates concepts like:
+- Proper view extraction and composition
+- Consistent modifier ordering
+- Effective use of property wrappers
+- Clean MVVM implementation
+- Accessibility best practices
+
 ## 📚 Documentation
 
 The guide is structured in multiple formats to provide both reference documentation and practical examples:
@@ -48,7 +66,7 @@ The `/Templates/SwiftUIStarter` directory provides a starter project template th
 1. Clone this repository
 2. Explore the Markdown documentation in `/Documentation`
 3. Open the playgrounds in Xcode to see live code examples
-4. Use the template project as a starting point for new projects
+4. Build the SwiftUIStyleExamples package to see working implementations
 5. Generate the DocC documentation for comprehensive reference
 
 ## 📋 Key Conventions
